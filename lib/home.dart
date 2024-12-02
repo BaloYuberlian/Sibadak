@@ -116,7 +116,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('SiBaDak'),
+        title: const Text('Si Badak'),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 51, 61, 59),
         foregroundColor: Colors.blue,
@@ -162,14 +162,7 @@ class _HomeState extends State<Home> {
               children: [
                 FloatingActionButton(
                   onPressed: () {},
-                  child: const Icon(Icons.home, size: 30),
-                  backgroundColor: Colors.white,
-                  foregroundColor: Colors.black,
-                  elevation: 5,
-                ),
-                FloatingActionButton(
-                  onPressed: () {},
-                  child: const Icon(Icons.bluetooth, size: 30),
+                  child: const Icon(Icons.location_on, size: 30),
                   backgroundColor: Colors.white,
                   foregroundColor: Colors.black,
                   elevation: 5,
